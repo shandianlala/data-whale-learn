@@ -12,7 +12,7 @@ import java.util.Stack;
 public class ValidParentheses {
 
     public boolean isValid(String s) {
-        if (s == null || s.length() == 0) {
+        if (s == null) {
             return false;
         }
         Stack<Character> antiBracket = new Stack<Character>();
