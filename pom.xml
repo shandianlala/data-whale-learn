@@ -8,9 +8,16 @@
     <name>SpringLearn Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
 
     <build>
-        <finalName>SpringLearn</finalName>
+        <finalName>data-whale-learn</finalName>
     </build>
 
 </project>
