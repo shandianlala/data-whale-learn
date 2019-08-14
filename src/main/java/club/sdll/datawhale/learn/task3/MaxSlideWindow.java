@@ -38,4 +38,8 @@ public class MaxSlideWindow {
         return result;
     }
 
+    // 0 ,
+    // remove 0, offer 1, left 1.
+    //
+
 }
